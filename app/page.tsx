@@ -1,7 +1,9 @@
-export default function Home() {
+const Home = () => {
   return (
-    <main className="flex items-center justify-center">
+    <main>
       <h1>Home</h1>
     </main>
   );
-}
+};
+
+export default Home;
